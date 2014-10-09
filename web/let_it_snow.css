@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/css?family=Peralta);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #092b68;
+    background-image: url("images/bg.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    font-family: Peralta, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#menu-button {
+    height: 32px;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+}
+
+svg {
+    cursor: pointer;
+}
+
+path {
+    fill: hsla(0, 0%, 100%, 0.3);
+}
+
+svg:hover path, svg.active path {
+    fill: hsla(0, 0%, 100%, 0.8);
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+#dart-canvas {
+    position: fixed;
+    top: 0;
+}
+
+#menu-box {
+    color: #ffffff;
+    font-family: 'Open Sans', Helvetica, Arial, serif;
+    font-size: 20px;
+    min-width: 550px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#menu {
+    background: hsla(0, 0%, 0%, 0.5);
+    margin: 0 auto;
+    padding: 50px 50px 40px;
+    width: 560px;
+}
+
+#menu p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+#save {
+    background: hsla(0, 0%, 0%, 0.8);
+    cursor: pointer;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px auto 0;
+    text-align: center;
+    width: 150px;
+}
+
+label {
+    display: inline-block;
+    padding: 20px 10px;
+    text-align: right;
+    width: 220px;
+}
+
+input {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 0 20px;
+    padding: 5px;
+    width: 300px;
+}
+
+h1, h2, h3 {
+    color: red;
+    font-size: 70px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 50px 20px 30px;
+    text-align: center;
+}
+
+#to {
+    color: green;
+    font-size: 50px;
+    max-width: 600px;
+    padding: 30px 100px;
+    text-align: right;
+}
+
+#from {
+    font-size: 35px;
+    max-width: 600px;
+    padding: 30px 100px;
+    text-align: left;
+}

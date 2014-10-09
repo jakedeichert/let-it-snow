@@ -1,0 +1,7 @@
+name: let_it_snow
+version: 1.0.0
+author: Jake Deichert
+description: An ecard that snows.
+dependencies:
+  browser: any
+  vector_math: any
