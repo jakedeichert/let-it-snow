@@ -10,7 +10,7 @@ Developed with dart.
 All settings are set and retrieved from url parameters.
 
 ### example
-`example.com/?greeting=happy%20holidays!&to=you&from=me&snow=500&bg=http://i.imgur.com/aYF7oh1.jpg`
+`localhost.com/?greeting=hey!&to=you&from=me&snow=500&bg=http://i.imgur.com/aYF7oh1.jpg`
 
 
 
