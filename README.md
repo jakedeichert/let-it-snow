@@ -9,7 +9,7 @@ Developed with dart.
 
 All settings are set and retrieved from url parameters.
 
-**Example:** localhost.com/?to=you?from=me?snow=500?greeting=happy holidays?bg=image-url
+**Example:** localhost.com/?greeting=happy%20holidays!&to=you&from=me&snow=500&bg=http://i.imgur.com/aYF7oh1.jpg
 
 
 
